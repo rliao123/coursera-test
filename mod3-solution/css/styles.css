@@ -1,0 +1,228 @@
+body{
+	font-size: 16px;
+	color: black;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	margin: 0;
+	width: 100%;
+}
+/*
+*{
+	box-sizing: border-box;
+}
+*/
+
+
+/**HEADER**/
+
+/*top bar*/
+#header-nav{
+	background-color:  lightgray;
+	border-radius: 0;
+	border: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/*
+.navbar-nav{
+	margin: 0;
+	padding: 5px;
+	padding-bottom: 0;
+}
+
+.navbar-brand{
+	padding-top:  15px;
+	padding-bottom:  15px;
+}
+*/
+
+.navbar-brand h1{
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color:  black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height:  .75;
+}
+
+/*get rid of underline*/
+.navbar-brand a:hover, .navbar-brand a:link{
+	text-decoration: none;
+}
+/*
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: black;
+	text.align: center;
+}
+#nav-list a:hover{
+	background: gray;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+*/
+
+.navbar-brand button.navbar-toggle, .icon-bar{
+	border: 1px solid black;
+}
+
+
+.navbar-brand button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+h2{
+	padding: 10px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color:  black;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+.nav-item span{
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	
+}
+
+#navbar-nav a{
+	border: 1px solid black;
+}
+
+
+.navbar-nav {
+	background:  lightblue;
+	border: 1px solid black;
+	margin: 0 -15px;
+	padding: 0;
+	text-decoration: none;
+	
+	text-align: center;
+
+}
+
+
+
+.navbar-nav a:hover, .navbar-nav a:link{
+	text-decoration: none;
+}
+
+/*
+.container .row {
+  	background: lightpink;
+  	text-align: center;
+  	font-family: "Comic Sans MS", "Comic Sans", cursive;
+  	border: 1px solid black;
+  	height: auto;
+  	width: auto;
+  	margin: 20px;
+  	padding: 20px;
+  }
+  */
+
+.category-tile{
+	position: relative;
+	border: 1px solid black;
+	margin:  0 auto 5px;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+ .row{
+	margin:0;
+	width: 100%;
+}
+
+.content-box{
+	box-sizing: border-box;
+	position: relative;
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: lightpink;
+	padding: 15px;
+
+}
+
+.tile-name{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.category-tile span{
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: box;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-nav {
+  	float: right;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
+
+
+
